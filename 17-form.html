@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Form</h1>
+        <form method="get" action="">
+            <label>Email</label>
+            <br />
+            <input name="password" type="password" />
+            <input type="submit" value="Save" />
+        </form>
+        <br />
+        <br />
+        <form>
+            <p><em>Fields marked with * are required </em></p>
+            <label for="someText">Write Some Text: </label>
+            <input id="someText" type="text" />
+            <br />
+            <br />
+            <label for="age">Write Your Age: </label>
+            <input id="age" type="number" />
+            <br />
+            <br />
+            <label for="email">Write Your Email: </label>
+            <input id="email" type="email" />
+            <br />
+            <br />
+            <label for="password">Enter Your Password: </label>
+            <input id="password" type="password" />
+            <br />
+            <br />
+            <label for="13213">Enter Your Website: </label>
+            <input id="13213" type="url" />
+            <br />
+            <br />
+            <label for="phone">Please Enter Your Phone Number: </label>
+            <input id="phone" type="tel" />
+            <br />
+            <br />
+            <input type="hidden" value="+90556565146" />
+            <br />
+            <br />
+            <label for="validation">Validation Attribute*: </label>
+            <input
+                id="validation"
+                type="text"
+                required
+                min="5"
+                minlength="5"
+                max="10"
+                maxlength="10"
+            />
+            <input type="submit" />
+            <input type="reset" />
+            <br />
+            <br />
+            <input
+                type="text"
+                placeholder="Please enter your password"
+                disabled
+            />
+            <input type="button" value="SUBMIT" readonly />
+            <br />
+            <br />
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">Male</label>
+            <input
+                type="radio"
+                name="gender"
+                id="notspecified"
+                value="notspecified"
+            />
+            <label for="notspecified">Not Specified</label>
+
+            <br /><br />
+
+            <input type="radio" name="gender2" id="female" value="female" />
+            <label for="female">Female</label>
+            <input type="radio" name="gender2" id="male" value="male" />
+            <label for="male">Male</label>
+            <input
+                type="radio"
+                name="gender2"
+                id="notspecified"
+                value="notspecified"
+            />
+            <label for="notspecified">Not Specified</label>
+            <br />
+            <br />
+            <input type="checkbox" id="guitar" name="gender" />
+            <label for="guitar">Guitar</label>
+            <input type="checkbox" id="football" name="hobbies" />
+            <label for="football">Football</label>
+            <input type="checkbox" id="basketball" name="hobbies" />
+            <label for="basketball">Basketball</label>
+            <br />
+            <br />
+            <input type="color" value="#AF38EB" />
+            <br />
+            <br />
+            <input name="discount" type="range" max="25" step="10" />
+            <br />
+            <br />
+            <input type="week" />
+            <br />
+            <br />
+            <label for="languages">Please Select A Language</label>
+            <select name="languages" id="languages">
+                <option value="nothing selected" selected disabled>
+                    Please select an option
+                </option>
+                <option value="en">English</option>
+                <option value="fr">French</option>
+                <option value="tr">Turkish</option>
+                <option value="es">Spanish</option>
+            </select>
+            <br />
+            <br />
+            <textarea rows="5" cols="50">
+You can copy this text and use it inside your CV </textarea
+            >
+            <br />
+            <br />
+            <input type="file" multiple />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </form>
+    </body>
+</html>
