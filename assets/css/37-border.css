@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(119, 119, 119);
+    border: 10px solid red;
+    margin-bottom: 50px;
+}
+
+.second {
+    border: none;
+    border-top: 10px dotted blue;
+    border-right: 10px dashed purple;
+    border-left: 10px dashed rgb(40, 255, 36);
+    border-bottom: 10px dashed rgb(128, 0, 0);
+}
+
+.radius {
+    border: none;
+    border-radius: 50%;
+}

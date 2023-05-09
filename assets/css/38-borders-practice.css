@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+.box {
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.first {
+    border: 5px solid red;
+    color: aqua;
+}
+
+.second {
+    border: 5px solid red;
+    color: rgb(0, 255, 0);
+}
+
+.third {
+    background-color: pink;
+}
+
+.fourth {
+    background-color: pink;
+    color: white;
+}
